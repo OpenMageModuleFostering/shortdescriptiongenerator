@@ -12,8 +12,10 @@ class Alin_AutoShortDescription_Adminhtml_Catalog_ProductController extends Mage
 			foreach ($attribs as $attrib) {
 				
 				if ($attrib->getUsedInProductListing() && $attrib->getIsUserDefined()) {
+					
 					$prodAttrVal='<b>'.$attrib->getStoreLabel().': </b>';
-					$pa=$_product->getAttributeText($attrib->getAttributeCode());
+					$pa=$attrib->getFrontend()->getValue($_product);
+					//$pa=$_product->getAttributeText($attrib->getAttributeCode());
 					if ($pa==null) $pa='N/A';
 					$prodAttrVal.=$pa;
 					if ($i % 2==0) $str.='<tr><td>'.$prodAttrVal.'</td>';

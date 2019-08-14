@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>ShortDescriptionGenerator</name>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <stability>stable</stability>
     <license>OSL</license>
     <channel>community</channel>
@@ -12,8 +12,8 @@
     <notes>Works fine</notes>
     <authors><author><name>Alin</name><user>alinx27</user><email>alinx27@yahoo.com</email></author></authors>
     <date>2013-03-15</date>
-    <time>06:36:49</time>
-    <contents><target name="magecommunity"><dir name="Alin"><dir name="AutoShortDescription"><dir name="Helper"><file name="Data.php" hash="18a9798192071bc895f96964df9a1c68"/></dir><dir name="Model"><file name="Observer.php" hash="3f33e0c5bd1fc43c98fe65806d387338"/></dir><dir name="controllers"><dir name="Adminhtml"><dir name="Catalog"><file name="ProductController.php" hash="76663f041ff42040671ac2dca3d182f9"/></dir></dir></dir><dir name="etc"><file name="config.xml" hash="6f37cb87d0d8fee4a164aead1b100e1b"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Alin_AutoShortDescription.xml" hash="242f33048b011ff1ec117d2f57aa33ea"/></dir></target></contents>
+    <time>09:14:59</time>
+    <contents><target name="magecommunity"><dir name="Alin"><dir name="AutoShortDescription"><dir name="Helper"><file name="Data.php" hash="18a9798192071bc895f96964df9a1c68"/></dir><dir name="Model"><file name="Observer.php" hash="3f33e0c5bd1fc43c98fe65806d387338"/></dir><dir name="controllers"><dir name="Adminhtml"><dir name="Catalog"><file name="ProductController.php" hash="e31e26cf74a4540dc0f6309294d50972"/></dir></dir></dir><dir name="etc"><file name="config.xml" hash="54e35c77eddf410fe21781ee98993d2f"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Alin_AutoShortDescription.xml" hash="242f33048b011ff1ec117d2f57aa33ea"/></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
 </package>
