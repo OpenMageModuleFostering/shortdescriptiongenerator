@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<modules>
+		<Alin_AutoShortDescription>
+			<version>1.0.0</version>
+		</Alin_AutoShortDescription>
+	</modules>
+	<global>
+		<models>
+			<alin_autoshortdescription>
+				<class>Alin_AutoShortDescription_Model</class>
+
+			</alin_autoshortdescription>
+
+		</models>
+
+	</global>
+	<adminhtml>
+		<events>
+			<adminhtml_block_html_before>
+				<observers>
+					<alin_autoshortdescription>
+						<type>singleton</type>
+						<class>alin_autoshortdescription/observer</class>
+						<method>addMassaction</method>
+					</alin_autoshortdescription>
+				</observers>
+			</adminhtml_block_html_before>
+		</events>
+	</adminhtml>
+
+	<admin>
+		<routers>
+			<adminhtml>
+				<args>
+					<modules>
+						<Alin_AutoShortDescription before="Mage_Adminhtml">Alin_AutoShortDescription_Adminhtml</Alin_AutoShortDescription>
+					</modules>
+				</args>
+			</adminhtml>
+		</routers>
+	</admin>
+
+</config>

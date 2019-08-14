@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+    <name>ShortDescriptionGenerator</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license>OSL-3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Generates the short description based on your attributes</summary>
+    <description>This extension generates the short description based on your attributes. You can choose what attributes to show in frontend based on attributes who are set to show in product listing (Use In Product Listing).&#xD;
+</description>
+    <notes>Work fine</notes>
+    <authors><author><name>Alin M</name><user>alinx27</user><email>alinx27@yahoo.com</email></author></authors>
+    <date>2013-03-13</date>
+    <time>07:16:33</time>
+    <contents><target name="magecommunity"><dir name="Alin"><dir name="AutoShortDescription"><dir name="Helper"><file name="Data.php" hash="18a9798192071bc895f96964df9a1c68"/></dir><dir name="Model"><file name="Observer.php" hash="3f33e0c5bd1fc43c98fe65806d387338"/></dir><dir name="controllers"><dir name="Adminhtml"><dir name="Catalog"><file name="ProductController.php" hash="76663f041ff42040671ac2dca3d182f9"/></dir></dir></dir><dir name="etc"><file name="config.xml" hash="925f1ccebf397637d997e2b23b0e9eba"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Alin_AutoShortDescription.xml" hash="242f33048b011ff1ec117d2f57aa33ea"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.0.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
