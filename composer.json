@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/ShortDescriptionGenerator",
+    "name": "OpenMageModuleFostering\/ShortDescriptionGenerator",
     "type": "magento-module",
     "license": "OSL",
     "homepage": "",
     "description": "Generates the short description based on your attributes",
     "authors": [
-    {
-        "name": "Alin",
-        "email": "alinx27@yahoo.com"
-    }
-],
+        {
+            "name": "Alin",
+            "email": "alinx27@yahoo.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
