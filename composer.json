@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/ShortDescriptionGenerator",
+    "name": "openmage-module-fostering\/shortdescriptiongenerator",
     "type": "magento-module",
-    "license": "OSL",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Generates the short description based on your attributes",
     "authors": [
